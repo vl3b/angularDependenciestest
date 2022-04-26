@@ -6,10 +6,7 @@ import {
   trigger,
 } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
-import {
-  MatCheckboxDefaultOptions,
-  MAT_CHECKBOX_DEFAULT_OPTIONS,
-} from '@angular/material/checkbox';
+
 
 @Component({
   selector: 'app-open-close',
@@ -40,12 +37,6 @@ import {
   ],
   templateUrl: 'open-close.component.html',
   styleUrls: ['open-close.component.css'],
-  providers: [
-    {
-      provide: MAT_CHECKBOX_DEFAULT_OPTIONS,
-      useValue: { clickAction: 'noop' } as MatCheckboxDefaultOptions,
-    },
-  ],
 })
 export class OpenCloseComponent {
   isDark = true;
