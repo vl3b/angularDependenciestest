@@ -18,6 +18,7 @@ import { Component, OnInit } from '@angular/core';
           height: '500px',
           opacity: 1,
           backgroundColor: '#ffffff',
+          color: '#000000',
         })
       ),
       state(
@@ -26,6 +27,7 @@ import { Component, OnInit } from '@angular/core';
           height: '500px',
           opacity: 1,
           backgroundColor: '#000000',
+          color: '#ffffff',
         })
       ),
       transition('dark => light', [animate('1s')]),

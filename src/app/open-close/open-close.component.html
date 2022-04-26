@@ -1,1 +1,8 @@
 <p>test</p>
+<nav>
+  <button type="button" (click)="toggle()">Toggle Dark/Light</button>
+</nav>
+
+<div [@openClose]="isDark ? 'dark' : 'light'" class="open-close-container">
+  <p>The box is now {{ isDark ? 'Dark' : 'Light' }}!</p>
+</div>
