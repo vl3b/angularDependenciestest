@@ -14,6 +14,7 @@ import {
 import { AppComponent } from './app.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatCommonModule } from '@angular/material/core';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { MatCommonModule } from '@angular/material/core';
     MatSliderModule,
     MatCommonModule,
     BrowserAnimationsModule,
+    MatCheckboxModule,
   ],
   declarations: [AppComponent, OpenCloseComponent],
   bootstrap: [AppComponent],
