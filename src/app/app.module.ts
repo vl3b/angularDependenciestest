@@ -16,6 +16,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatCommonModule } from '@angular/material/core';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { CheckboxComponent } from './checkbox/checkbox.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,12 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
     BrowserAnimationsModule,
     MatCheckboxModule,
   ],
-  declarations: [AppComponent, OpenCloseComponent, CheckboxComponent],
+  declarations: [
+    AppComponent,
+    OpenCloseComponent,
+    CheckboxComponent,
+    SliderComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
