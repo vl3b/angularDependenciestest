@@ -3,6 +3,7 @@ import {
   MatCheckboxDefaultOptions,
   MAT_CHECKBOX_DEFAULT_OPTIONS,
 } from '@angular/material/checkbox';
+
 @Component({
   selector: 'app-checkbox',
   templateUrl: './checkbox.component.html',
